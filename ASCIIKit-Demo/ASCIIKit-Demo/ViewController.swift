@@ -47,6 +47,7 @@ class ViewController: UIViewController {
     func didTapImage(){
         let imageInfo   = GSImageInfo(image: self.imageView.image!, imageMode: .AspectFit)
         let imageViewer = GSImageViewerController(imageInfo: imageInfo)
+        imageViewer.view.backgroundColor = UIColor.whiteColor()
         self.presentViewController(imageViewer, animated: true, completion: nil)
 
     }
