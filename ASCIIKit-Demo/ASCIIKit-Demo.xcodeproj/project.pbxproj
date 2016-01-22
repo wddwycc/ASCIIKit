@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21A73B391C525A6D00411719 /* GSImageViewerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A73B381C525A6D00411719 /* GSImageViewerController.swift */; };
 		21AD1CED1C521AA500553825 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 21AD1CEC1C521AA500553825 /* test.jpg */; };
 		21D2D8C91C51F2A300BF906A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D2D8C81C51F2A300BF906A /* AppDelegate.swift */; };
 		21D2D8CB1C51F2A300BF906A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D2D8CA1C51F2A300BF906A /* ViewController.swift */; };
@@ -49,6 +50,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		21A73B381C525A6D00411719 /* GSImageViewerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSImageViewerController.swift; sourceTree = "<group>"; };
 		21AD1CEC1C521AA500553825 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
 		21D2D8C51C51F2A300BF906A /* ASCIIKit-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ASCIIKit-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21D2D8C81C51F2A300BF906A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			children = (
 				21D2D8C81C51F2A300BF906A /* AppDelegate.swift */,
 				21D2D8CA1C51F2A300BF906A /* ViewController.swift */,
+				21A73B381C525A6D00411719 /* GSImageViewerController.swift */,
 				21AD1CEC1C521AA500553825 /* test.jpg */,
 				21D2D8CC1C51F2A300BF906A /* Main.storyboard */,
 				21D2D8CF1C51F2A300BF906A /* Assets.xcassets */,
@@ -202,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21D2D8CB1C51F2A300BF906A /* ViewController.swift in Sources */,
+				21A73B391C525A6D00411719 /* GSImageViewerController.swift in Sources */,
 				21D2D8C91C51F2A300BF906A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

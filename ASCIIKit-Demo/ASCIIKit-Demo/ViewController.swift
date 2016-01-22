@@ -26,7 +26,6 @@ class ViewController: UIViewController {
     var attributedString:NSAttributedString?
     
     
-    var presentedVC:UIViewController?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,20 +45,10 @@ class ViewController: UIViewController {
         
     }
     func didTapImage(){
-        let vc = UIViewController()
-        self.presentedVC = vc
-        vc.view.backgroundColor = UIColor.whiteColor()
-        let imageView = UIImageView(frame: CGRectMake(0, 0, UIScreen.mainScreen().bounds.width, UIScreen.mainScreen().bounds.height))
-        imageView.contentMode = UIViewContentMode.ScaleAspectFit
-        vc.view.addSubview(imageView)
-        imageView.image = self.imageView.image
-        
-        let tapBackGesture = UITapGestureRecognizer(target: self, action: "didTapBack")
-        vc.view.addGestureRecognizer(tapBackGesture)
-        self.presentViewController(vc, animated: true, completion: nil)
-    }
-    func didTapBack(){
-        self.presentedVC?.dismissViewControllerAnimated(true, completion: nil)
+        let imageInfo   = GSImageInfo(image: self.imageView.image!, imageMode: .AspectFit)
+        let imageViewer = GSImageViewerController(imageInfo: imageInfo)
+        self.presentViewController(imageViewer, animated: true, completion: nil)
+
     }
     
     @IBAction func didSelectSegment(sender: UISegmentedControl) {
