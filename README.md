@@ -36,13 +36,15 @@ testImage.ASCIIGenerateGrayScaleMatrixWithSingleCharacter("#", pixelsPerSymbol: 
 To generate ASCII multi character grey scale matrix:
 
 ```swift
-testImage.ASCIIGenerateGrayScaleMatrixWithSingleCharacter(symbol, pixelsPerSymbol: 2) { (attributedString) -> Void in
+testImage.ASCIIGenerateGrayScaleMatrixWithMultipleCharacter(pixelsPerSymbol: 2) { (attributedString) -> Void in
     let image = attributedString.generateImage()
 }
 ```
 
 ![](https://raw.githubusercontent.com/wddwycc/ASCIIKit/master/Demo/3.png)
 
+
+The process is done Asynchoriously with CoreGraphics.
 
 
 See more detail in the demo project~.
