@@ -6,7 +6,7 @@
 
 How to use
 ---
-Drag `ASCIIKit.xcodeproj` into your project and add it into `Embedded Binaries`
+Drag `ASCIIKit.xcodeproj` into your project and add it into `Embedded Binaries` of your project
 
 
 Original Image:  
