@@ -60,6 +60,7 @@ class ViewController: UIViewController {
         self.currentLevel.text = "4"
         switch sender.selectedSegmentIndex{
         case 0:
+            currentState = 0
             testImage.ASCIIGenerateColorfulMatrixWithSingleCharacter(symbol, pixelsPerSymbol: 4) { (attributedString) -> Void in
                 self.attributedString = attributedString
                 self.imageView.image = attributedString.generateImage()
