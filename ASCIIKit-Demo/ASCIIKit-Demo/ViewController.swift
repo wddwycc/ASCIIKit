@@ -112,6 +112,9 @@ class ViewController: UIViewController {
         
     }
     
+    @IBAction func didPressTap(sender: UIButton) {
+        UIPasteboard.generalPasteboard().string = self.attributedString!.string
+    }
     
     func updatePresentation(){
         let testImage = UIImage(named: "test.jpg")!

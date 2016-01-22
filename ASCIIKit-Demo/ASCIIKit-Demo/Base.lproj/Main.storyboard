@@ -32,6 +32,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d5t-7l-nc0">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="Copy ASCII matrix"/>
+                                <connections>
+                                    <action selector="didPressTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1iO-i8-Aex"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="test.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="BV4-Vn-GAM">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
