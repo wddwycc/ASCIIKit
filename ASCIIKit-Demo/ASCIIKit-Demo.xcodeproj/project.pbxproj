@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		21A73B341C522C7200411719 /* test2.png in Resources */ = {isa = PBXBuildFile; fileRef = 21A73B331C522C7200411719 /* test2.png */; };
 		21AD1CED1C521AA500553825 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 21AD1CEC1C521AA500553825 /* test.jpg */; };
 		21D2D8C91C51F2A300BF906A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D2D8C81C51F2A300BF906A /* AppDelegate.swift */; };
 		21D2D8CB1C51F2A300BF906A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D2D8CA1C51F2A300BF906A /* ViewController.swift */; };
@@ -50,7 +49,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		21A73B331C522C7200411719 /* test2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test2.png; sourceTree = "<group>"; };
 		21AD1CEC1C521AA500553825 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
 		21D2D8C51C51F2A300BF906A /* ASCIIKit-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ASCIIKit-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21D2D8C81C51F2A300BF906A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -97,7 +95,6 @@
 				21D2D8C81C51F2A300BF906A /* AppDelegate.swift */,
 				21D2D8CA1C51F2A300BF906A /* ViewController.swift */,
 				21AD1CEC1C521AA500553825 /* test.jpg */,
-				21A73B331C522C7200411719 /* test2.png */,
 				21D2D8CC1C51F2A300BF906A /* Main.storyboard */,
 				21D2D8CF1C51F2A300BF906A /* Assets.xcassets */,
 				21D2D8D11C51F2A300BF906A /* LaunchScreen.storyboard */,
@@ -190,7 +187,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21A73B341C522C7200411719 /* test2.png in Resources */,
 				21AD1CED1C521AA500553825 /* test.jpg in Resources */,
 				21D2D8D31C51F2A300BF906A /* LaunchScreen.storyboard in Resources */,
 				21D2D8D01C51F2A300BF906A /* Assets.xcassets in Resources */,
@@ -327,6 +323,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "ASCIIKit-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.monk-studio.ASCIIKit-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -339,6 +336,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "ASCIIKit-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.monk-studio.ASCIIKit-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
