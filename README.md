@@ -1,7 +1,7 @@
 <p align="middle"><img src="https://raw.githubusercontent.com/wddwycc/ASCIIKit/master/icon.png"/></p>
 ---
 
-
+###ASCIIKit is a powerful framwork to generate ASCII matrix on iOS.
 
 
 How to use
