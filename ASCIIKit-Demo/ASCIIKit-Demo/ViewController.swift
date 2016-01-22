@@ -14,16 +14,17 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-
-        let testImage = UIImage(named: "test.png")
-        let image = testImage!.ASCIIGenerateColorfulMatrixWithSingleCharacter("#", scaleFactor: 1).generateImage()
+        self.view.backgroundColor = UIColor.whiteColor()
         
+        let testImage = UIImage(named: "test2.png")!
+        let image = testImage
         
         let imageView = UIImageView(frame: self.view.bounds)
         imageView.contentMode = UIViewContentMode.ScaleAspectFit
         self.view.addSubview(imageView)
+        imageView.image = image.ASCIIGenerateColorfulMatrixWithSingleCharacter("#", pixelsPerSymbol: 6).generateImage()
         
-        imageView.image = image
+        
         
         
     }
