@@ -1,4 +1,4 @@
-<p align="middle"><img src="icon.png"/></p>
+<p align="middle"><img src="https://raw.githubusercontent.com/wddwycc/ASCIIKit/master/icon.png"/></p>
 ---
 
 
@@ -10,21 +10,21 @@ Drag `ASCIIKit.xcodeproj` into your project and add it into `Embedded Binaries`
 
 
 Original Image:  
-![](demo/original Image.jpg)
+![](https://raw.githubusercontent.com/wddwycc/ASCIIKit/master/Demo/original Image.jpg)
 
 To generate ASCII single character colorful matrix:
 
     testImage.ASCIIGenerateColorfulMatrixWithSingleCharacter("#", pixelsPerSymbol: 2) { (attributedString) -> Void in
       let image = attributedString.generateImage()
     }
-![](demo/1.png)
+![](https://raw.githubusercontent.com/wddwycc/ASCIIKit/master/Demo/1.png)
 
 To generate ASCII single character grey scale matrix:
 
     testImage.ASCIIGenerateGrayScaleMatrixWithSingleCharacter("#", pixelsPerSymbol: 2) { (attributedString) -> Void in
       let image = attributedString.generateImage()
     }
-![](demo/2.png)
+![](https://raw.githubusercontent.com/wddwycc/ASCIIKit/master/Demo/2.png)
 
 
 To generate ASCII multi character grey scale matrix:
@@ -34,7 +34,7 @@ To generate ASCII multi character grey scale matrix:
         }
 
 
-![](demo/3.png)
+![](https://raw.githubusercontent.com/wddwycc/ASCIIKit/master/Demo/3.png)
 
 
 
