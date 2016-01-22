@@ -14,25 +14,32 @@ Original Image:
 
 To generate ASCII single character colorful matrix:
 
-    testImage.ASCIIGenerateColorfulMatrixWithSingleCharacter("#", pixelsPerSymbol: 2) { (attributedString) -> Void in
-      let image = attributedString.generateImage()
-    }
+```swift
+testImage.ASCIIGenerateColorfulMatrixWithSingleCharacter("#", pixelsPerSymbol: 2) { (attributedString) -> Void in
+    let image = attributedString.generateImage()
+}
+```
+
 ![](https://raw.githubusercontent.com/wddwycc/ASCIIKit/master/Demo/1.png)
 
 To generate ASCII single character grey scale matrix:
 
-    testImage.ASCIIGenerateGrayScaleMatrixWithSingleCharacter("#", pixelsPerSymbol: 2) { (attributedString) -> Void in
-      let image = attributedString.generateImage()
-    }
+```swift
+testImage.ASCIIGenerateGrayScaleMatrixWithSingleCharacter("#", pixelsPerSymbol: 2) { (attributedString) -> Void in
+    let image = attributedString.generateImage()
+}
+```
+
 ![](https://raw.githubusercontent.com/wddwycc/ASCIIKit/master/Demo/2.png)
 
 
 To generate ASCII multi character grey scale matrix:
 
-        testImage.ASCIIGenerateGrayScaleMatrixWithSingleCharacter(symbol, pixelsPerSymbol: 2) { (attributedString) -> Void in
-          let image = attributedString.generateImage()
-        }
-
+```swift
+testImage.ASCIIGenerateGrayScaleMatrixWithSingleCharacter(symbol, pixelsPerSymbol: 2) { (attributedString) -> Void in
+    let image = attributedString.generateImage()
+}
+```
 
 ![](https://raw.githubusercontent.com/wddwycc/ASCIIKit/master/Demo/3.png)
 
