@@ -22,9 +22,7 @@ class ViewController: UIViewController {
         let imageView = UIImageView(frame: self.view.bounds)
         imageView.contentMode = UIViewContentMode.ScaleAspectFit
         self.view.addSubview(imageView)
-        imageView.image = image.ASCIIGenerateColorfulMatrixWithSingleCharacter("#", pixelsPerSymbol: 6).generateImage()
-        
-        
+        imageView.image = image.ASCIIGenerateGrayScaleMatrixWithSingleCharacter("#", pixelsPerSymbol: 6).generateImage()
         
         
     }
