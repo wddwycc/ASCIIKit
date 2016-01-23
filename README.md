@@ -4,15 +4,16 @@
 ###ASCIIKit is a powerful framwork to generate ASCII matrix on iOS.
 
 
-How to use
+How to install
 ---
-Drag `ASCIIKit.xcodeproj` into your project and add it into `Embedded Binaries` and `Linked frameworks and libraries`
+Drag `ASCIIKit.xcodeproj` into your project and add `ASCIIKit.framework` into `Embedded Binaries` and `Linked frameworks and libraries`
 
 
 Original Image:  
-![](https://raw.githubusercontent.com/wddwycc/ASCIIKit/master/Demo/original Image.jpg)
+![](https://raw.githubusercontent.com/wddwycc/ASCIIKit/master/Demo/original Image.jpg)  
+(from: https://d13yacurqjgara.cloudfront.net/users/60266/screenshots/1974826/open-uri20150316-11-vz33qe_1x)
 
-To generate ASCII single character colorful matrix:
+### Generate ASCII single character colorful matrix:
 
 ```swift
 testImage.ASCIIGenerateColorfulMatrixWithSingleCharacter("#", pixelsPerSymbol: 2) { (attributedString) -> Void in
@@ -22,7 +23,7 @@ testImage.ASCIIGenerateColorfulMatrixWithSingleCharacter("#", pixelsPerSymbol: 2
 
 ![](https://raw.githubusercontent.com/wddwycc/ASCIIKit/master/Demo/1.png)
 
-To generate ASCII single character grey scale matrix:
+### Generate ASCII single character grey scale matrix:
 
 ```swift
 testImage.ASCIIGenerateGrayScaleMatrixWithSingleCharacter("#", pixelsPerSymbol: 2) { (attributedString) -> Void in
@@ -33,7 +34,7 @@ testImage.ASCIIGenerateGrayScaleMatrixWithSingleCharacter("#", pixelsPerSymbol: 
 ![](https://raw.githubusercontent.com/wddwycc/ASCIIKit/master/Demo/2.png)
 
 
-To generate ASCII multi character grey scale matrix:
+### Generate ASCII multi character grey scale matrix:
 
 ```swift
 testImage.ASCIIGenerateGrayScaleMatrixWithMultipleCharacter(pixelsPerSymbol: 2) { (attributedString) -> Void in
@@ -44,7 +45,6 @@ testImage.ASCIIGenerateGrayScaleMatrixWithMultipleCharacter(pixelsPerSymbol: 2) 
 ![](https://raw.githubusercontent.com/wddwycc/ASCIIKit/master/Demo/3.png)
 
 
-The process is done Asynchoriously with CoreGraphics.
-
+The calculation is done Asynchoriously with CoreGraphics.
 
 See more detail in the demo project~.
