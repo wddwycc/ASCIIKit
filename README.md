@@ -4,16 +4,18 @@
 ###ASCIIKit is a powerful framwork to generate ASCII matrix on iOS.
 
 
-How to install
+How to install:
 ---
 Drag `ASCIIKit.xcodeproj` into your project and add `ASCIIKit.framework` into `Embedded Binaries` and `Linked frameworks and libraries`
 
+How to Use:
+---
 
 Original Image:  
 ![](https://raw.githubusercontent.com/wddwycc/ASCIIKit/master/Demo/original Image.jpg)  
 (from: https://d13yacurqjgara.cloudfront.net/users/60266/screenshots/1974826/open-uri20150316-11-vz33qe_1x)
 
-### Generate ASCII single character colorful matrix:
+##### Generate ASCII single character colorful matrix:
 
 ```swift
 testImage.ASCIIGenerateColorfulMatrixWithSingleCharacter("#", pixelsPerSymbol: 2) { (attributedString) -> Void in
@@ -23,7 +25,7 @@ testImage.ASCIIGenerateColorfulMatrixWithSingleCharacter("#", pixelsPerSymbol: 2
 
 ![](https://raw.githubusercontent.com/wddwycc/ASCIIKit/master/Demo/1.png)
 
-### Generate ASCII single character grey scale matrix:
+##### Generate ASCII single character grey scale matrix:
 
 ```swift
 testImage.ASCIIGenerateGrayScaleMatrixWithSingleCharacter("#", pixelsPerSymbol: 2) { (attributedString) -> Void in
@@ -34,7 +36,7 @@ testImage.ASCIIGenerateGrayScaleMatrixWithSingleCharacter("#", pixelsPerSymbol: 
 ![](https://raw.githubusercontent.com/wddwycc/ASCIIKit/master/Demo/2.png)
 
 
-### Generate ASCII multi character grey scale matrix:
+##### Generate ASCII multi character grey scale matrix:
 
 ```swift
 testImage.ASCIIGenerateGrayScaleMatrixWithMultipleCharacter(pixelsPerSymbol: 2) { (attributedString) -> Void in
