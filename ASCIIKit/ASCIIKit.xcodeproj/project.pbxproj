@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		216FF51B1C5493930094D64A /* ASCIIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216FF51A1C5493930094D64A /* ASCIIKit.swift */; };
 		21D2D8B51C51F29300BF906A /* ASCIIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 21D2D8B41C51F29300BF906A /* ASCIIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21D2D8E11C51F2FE00BF906A /* ASCIIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D2D8E01C51F2FE00BF906A /* ASCIIKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		216FF51A1C5493930094D64A /* ASCIIKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASCIIKit.swift; sourceTree = "<group>"; };
 		21D2D8B11C51F29300BF906A /* ASCIIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASCIIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21D2D8B41C51F29300BF906A /* ASCIIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASCIIKit.h; sourceTree = "<group>"; };
 		21D2D8B61C51F29300BF906A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		21D2D8E01C51F2FE00BF906A /* ASCIIKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ASCIIKit.swift; path = ../../../ASCIIKit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				21D2D8B41C51F29300BF906A /* ASCIIKit.h */,
-				21D2D8E01C51F2FE00BF906A /* ASCIIKit.swift */,
+				216FF51A1C5493930094D64A /* ASCIIKit.swift */,
 				21D2D8B61C51F29300BF906A /* Info.plist */,
 			);
 			path = ASCIIKit;
@@ -133,7 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21D2D8E11C51F2FE00BF906A /* ASCIIKit.swift in Sources */,
+				216FF51B1C5493930094D64A /* ASCIIKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
