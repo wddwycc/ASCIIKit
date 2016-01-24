@@ -23,7 +23,7 @@ testImage.ASCIIGenerateColorfulMatrixWithSingleCharacter("#", pixelsPerSymbol: 2
 }
 ```
 
-![](https://raw.githubusercontent.com/wddwycc/ASCIIKit/master/Demo/1.png)
+![](https://raw.githubusercontent.com/wddwycc/ASCIIKit/master/DemoImages/1.png)
 
 ##### Generate ASCII single character grey scale matrix:
 
@@ -33,7 +33,7 @@ testImage.ASCIIGenerateGrayScaleMatrixWithSingleCharacter("#", pixelsPerSymbol: 
 }
 ```
 
-![](https://raw.githubusercontent.com/wddwycc/ASCIIKit/master/Demo/2.png)
+![](https://raw.githubusercontent.com/wddwycc/ASCIIKit/master/DemoImages/2.png)
 
 
 ##### Generate ASCII multi character grey scale matrix:
@@ -44,7 +44,7 @@ testImage.ASCIIGenerateGrayScaleMatrixWithMultipleCharacter(pixelsPerSymbol: 2) 
 }
 ```
 
-![](https://raw.githubusercontent.com/wddwycc/ASCIIKit/master/Demo/3.png)
+![](https://raw.githubusercontent.com/wddwycc/ASCIIKit/master/DemoImages/3.png)
 
 
 The calculation is done Asynchoriously with CoreGraphics.
