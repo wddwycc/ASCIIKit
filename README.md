@@ -12,7 +12,7 @@ How to Use:
 ---
 
 Original Image:  
-![](https://raw.githubusercontent.com/wddwycc/ASCIIKit/master/Demo/original Image.jpg)  
+![](https://raw.githubusercontent.com/wddwycc/ASCIIKit/master/DemoImages/original Image.jpg)  
 (from: https://d13yacurqjgara.cloudfront.net/users/60266/screenshots/1974826/open-uri20150316-11-vz33qe_1x)
 
 ##### Generate ASCII single character colorful matrix:
